@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-family: Roboto;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1F2937;
+}
+
+/* --------- */
+/* 
+.Centralized{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.header {
+    display: flex;
+    padding: 10px 270px 0px 270px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.left-header {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header>.right-header {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header>.left-header>.logo {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* --------- */
+
+.hero-section {
+    display: flex;
+    margin: 0px;
+    padding: 80px 270px 80px 270px;
+    align-content: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.Big-H1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 350px;
+}
+
+.Subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 420px;
+}
+
+.Sign-up>button {
+    padding: 0px;
+    margin: 0px;
+    padding: 8px 30px 8px 30px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.left-hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.right-hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #6d717b;
+    width: 750px;
+    height: 220px;
+    justify-content: center;
+
+}
+
+
+.placeholder {
+    font-size: 16px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+/* --------- */
+
+.random-info-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 270px 0px 270px;
+}
+
+
+.textabove {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illustration {
+    display: flex;
+    gap: 70px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 160px;
+}
+
+.box {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    width: 160px;
+    height: 160px;
+}
+
+.sub-textbox {
+    text-align: center;
+}
+
+/* --------- */
+
+.Quote {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px 370px 80px 370px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.the-text-quote {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.who-said-it {
+    display: flex;
+    justify-content: end;
+    font-size: 26px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+/* --------- */
+
+
+.Call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 80px 270px 80px 270px;
+    padding: 50px 0px 50px 0px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    /* gap: 50px; */
+}
+
+.left-call {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header-call {
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.sign-subtext {
+    color: #E5E7EB;
+}
+
+.sign-uplast {
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border: white solid 2px;
+    border-radius: 8px;
+    padding: 8px 25px 8px 25px;
+
+}
+
+/* --------- */
+
+.footer{
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
